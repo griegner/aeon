@@ -183,12 +183,6 @@ convention = "numpy"
 testpaths = "aeon"
 addopts = '''
     --doctest-modules
-    --durations 20
-    --timeout 600
-    --showlocals
-    --dist worksteal
-    --reruns 2
-    --only-rerun "crashed while running"
 '''
 filterwarnings = '''
     ignore::UserWarning
